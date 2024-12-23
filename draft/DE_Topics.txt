@@ -1,0 +1,141 @@
+1. Databases
+
+OLAP: Redshift, BigQuery, Snowflake, Teradata
+	Redshift deep dive
+OLTP:  Oracle, PostgreSQL, Mysql
+NoSQL: Redis, MongoDB, Neo4j
+
+Columnar VS Row database: difference, advantages/disadvantages
+
+Indexes in details: types, best practices, use cases. Primary, unique index. B-Tree vs Hash
+	B-Tree deep dive
+
+Partitions: types, usage.
+
+ACID vs BASE
+	ACID deep dive
+
+CAP theorem
+
+SQL queries
+	Window functions deep dive
+
+Normalization vs Denormalization
+
+———————————
+
+2. Data Warehouses
+
+Kimball vs Inmon vs Data Vault data models
+
+Slowly changing dimensions: types, use cases
+
+Dimensional vs Relational Data Modeling
+
+
+———————————
+
+3. Data processing
+
+Lambda vs Kappa data processing architectures
+https://medium.com/towards-data-engineering/data-processing-architectures-lambda-vs-kappa-for-big-data-8cc9a7edeffd
+
+Glue
+
+Anomization vs Pseudo 
+
+CDC: Debezium, Fivetran
+
+ETL vs ELT
+
+———————————
+
+
+3. Data storage
+
+S3 Deep Dive
+
+File formats
+	Parquet 
+	JSON
+	Avro
+	ORC
+	CSV
+
+Data lake table formats
+Delta, Iceberg, Hudi
+
+Metadata catalogs
+Hive metastore, Glue, Unity
+
+Redshift Deep Dive
+
+LZO vs ZSTD vs AZ64
+Compared to RAW encoding, AZ64 consumed 60–70% less storage, and was 25–30% faster.
+Compared to LZO encoding, AZ64 consumed 35% less storage, and was 40% faster.
+Compared to ZSTD encoding, AZ64 consumed 5–10% less storage, and was 70% faster.
+
+Bloom Filter - https://aws.amazon.com/about-aws/whats-new/2020/05/amazon-redshift-now-leverages-bloom-filters-to-improve-data-lake-query-performance/
+this seems similar to BigQuery’s Dynamic Query Execution, which allows the system to change the number of workers or shuffle partitions at runtime.
+
+Advanced Query Accelerator (AQUA) is a multi-tenant service introduced by Redshift in 2021. It serves as a caching layer for Redshift Managed Storage and an accelerator for complex scans and aggregations.
+
+Redshift Managed Storage (RMS)
+RMS is built on the AWS Nitro System, which features high-bandwidth networking. RMS uses high-performance SSD-based local storage as a tier-1 cache. Redshift leverages techniques like automatic fine-grained data eviction and intelligent data prefetching to get the best from local SSD while achieving unlimited scalability of S3.
+
+zone maps ? Superblock
+
+———————————
+
+4. Apache Spark
+
+Spark architecture
+DAG
+Distributed computing. Trina vs Spark vs Athena vs Dremio vs Presto
+Data Shuffling
+Lazy evaluation
+Repartition vs coalesce
+RDD vs DataFrame vs DataSet
+Fault tolerance
+Schema evolution
+
+Partitioning vs Bucketing
+https://www.linkedin.com/posts/aurimas-griciunas_what-is-the-difference-between-%3F%3F%3F%3F%3F-activity-7158030915523223553-FXRj/?utm_source=share&utm_medium=member_android
+———————————
+
+
+5. Python
+
+Data Structures and Algorithms
+Big-O: https://www.designgurus.io/course-play/grokking-data-structures-for-coding-interviews/doc/658e6ec5c55212f516050cdb
+
+
+———————————
+
+5. Architecture
+
+Event driven architecture (EDA) : https://danielfoo.medium.com/event-driven-architecture-vs-restful-architecture-99d4a98222cc
+	loose coupling
+
+Data Mesh: decentralised, domain-oriented data management
+
+Modern data architecture 
+———————————
+
+Databricks
+
+
+Kafka
+
+
+Hadoop
+
+
+Docker
+
+
+Data Sience
+	
+
+Regression vs Classification
+
