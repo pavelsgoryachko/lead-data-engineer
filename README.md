@@ -8,10 +8,12 @@ Focus will be on data engineering fundamentals like:
 - Data structures and algorithms
 - Database systems
 - Data modeling
-- Distributed systems
+- Distributed computing
 - Data architectures
-- Data processing
+- Data Pipeline design patterns
 - Big Data systems
+- Version control (Git)
+- Containerization (Docker)
 
 Goal: get ability to understand the architecture behind data engineering tools and how they work at a core level.
 
@@ -26,14 +28,8 @@ Goal: get ability to understand the architecture behind data engineering tools a
 * Collections: counter, defaultdict
 
 1.2. Overview of Big-O
-  time complexity
-  space complexity
-
-: Constant time. The running time is independent of the size of the input.
-: Linear time. The running time increases linearly with the size of the input.
-: Quadratic time. The running time is proportional to the square of the size of the input.
-: Logarithmic time. The running time increases logarithmically with the size of the input.
-: Exponential time. The running time increases exponentially in the size of the input.
+ - time complexity
+ - space complexity
 
 ![image](https://github.com/user-attachments/assets/40cb558e-d293-4568-9f59-b36cfc1f38ed)
 
