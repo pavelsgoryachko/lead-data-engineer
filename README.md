@@ -19,7 +19,7 @@ Goal: get ability to understand the architecture behind data engineering tools a
 
 
 1. Data structures and algorithms
-   
+
 1.1. Data structures in Python:
 * dictionary
 * list
@@ -30,8 +30,6 @@ Goal: get ability to understand the architecture behind data engineering tools a
 1.2. Overview of Big-O
  - time complexity
  - space complexity
-
-![image](https://github.com/user-attachments/assets/40cb558e-d293-4568-9f59-b36cfc1f38ed)
 
 
    
@@ -57,6 +55,12 @@ Language used to manage data.
 
   
 3. Distributed systems
+- Spark
+- Databrics
+- HDFS
+- Hive
+- Trino
+- Flink
 
 
 
